@@ -3,9 +3,7 @@ package com.mycompany.app;
 /**
  * Hello world!
  */
-public class App
-{
-
+public class App {
     private final String message = "Hello World!";
 
     public App() {}
@@ -14,8 +12,7 @@ public class App
         System.out.println(new App().getMessage());
     }
 
-    private final String getMessage() {
+    private String getMessage() {
         return message;
     }
-
 }
